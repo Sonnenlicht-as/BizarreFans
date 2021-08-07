@@ -1,0 +1,32 @@
+{
+  "bizarre_fans": "实用风扇",
+  "itemGroup.fan": "实用风扇",
+
+  "item.bizarre_fans.base_fan_block": "基础风扇",
+  "item.bizarre_fans.frozen_fan_block": "冰冻风扇",
+  "item.bizarre_fans.fire_fan_block": "高温风扇",
+  "item.bizarre_fans.function_fan_block": "多功能风扇",
+  "item.bizarre_fans.pull_fan_block": "聚集风扇",
+
+  "item.bizarre_fans.reversal_core": "反转核心",
+  "bizarre_fans.reversal_core.desc_0": "用于制作聚集风扇的聚合物",
+  "item.bizarre_fans.frozen_core": "冰霜核心",
+  "bizarre_fans.frozen_core.desc_0": "用于制作冰霜风扇的聚合物",
+  "item.bizarre_fans.fire_core": "高温核心",
+  "bizarre_fans.fire_core.desc_0": "用于制作高温风扇的聚合物",
+  "item.bizarre_fans.function_core": "多功能核心",
+  "bizarre_fans.function_core.desc_0": "用于制作多功能风扇的聚合物",
+
+  "block.bizarre_fans.base_fan_block": "基础风扇",
+  "block.bizarre_fans.frozen_fan_block": "冰冻风扇",
+  "block.bizarre_fans.fire_fan_block": "高温风扇",
+  "block.bizarre_fans.function_fan_block": "多功能风扇",
+  "block.bizarre_fans.pull_fan_block": "聚集风扇",
+
+  "fan.mode_info": "风扇模式",
+  "fan_mode.xp": "风扇模式: 吸收经验",
+  "fan_mode.item": "风扇模式: 吸收物品",
+  "fan_mode.damage": "风扇模式: 风针",
+  "fan_mode.normal": "风扇模式: 普通模式",
+  "fun_damage": "风针"
+}

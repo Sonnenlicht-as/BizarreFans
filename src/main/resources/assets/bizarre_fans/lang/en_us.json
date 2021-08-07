@@ -1,0 +1,32 @@
+{
+  "bizarre_fans": "Bizarre Fans",
+  "itemGroup.fan": "Bizarre Fans",
+
+  "item.bizarre_fans.base_fan_block": "Base Fan",
+  "item.bizarre_fans.frozen_fan_block": "Frozen Fan",
+  "item.bizarre_fans.fire_fan_block": "Heating Fan",
+  "item.bizarre_fans.function_fan_block": "Multi-function Fan",
+  "item.bizarre_fans.pull_fan_block": "Pulling Fan",
+
+  "item.bizarre_fans.reversal_core": "Reversal Core",
+  "bizarre_fans.reversal_core.desc_0": "Polymer for the pulling fan",
+  "item.bizarre_fans.frozen_core": "Frozen Core",
+  "bizarre_fans.frozen_core.desc_0": "Polymer for the frozen fan",
+  "item.bizarre_fans.fire_core": "Fire Core",
+  "bizarre_fans.fire_core.desc_0": "Polymer for the fire fan",
+  "item.bizarre_fans.function_core": "Function Core",
+  "bizarre_fans.function_core.desc_0": "Polymer for the function fan",
+
+  "block.bizarre_fans.base_fan_block": "Base Fan",
+  "block.bizarre_fans.frozen_fan_block": "Frozen Fan",
+  "block.bizarre_fans.fire_fan_block": "Heating Fan",
+  "block.bizarre_fans.function_fan_block": "Multi-function Fan",
+  "block.bizarre_fans.pull_fan_block": "Pulling Fan",
+
+  "fan.mode_info": "Fan Mode",
+  "fan_mode.xp": "Fan Mode: ABSORB XP",
+  "fan_mode.item": "Fan Mode: ABSORB ITEM",
+  "fan_mode.damage": "Fan Mode: WIND SHOT",
+  "fan_mode.normal": "Fan Mode: NORMAL",
+  "fun_damage": "Wind shot"
+}

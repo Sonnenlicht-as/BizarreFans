@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sonnenlicht.somethinggood.common.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "somethinggood.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

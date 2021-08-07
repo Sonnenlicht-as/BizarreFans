@@ -1,0 +1,30 @@
+{
+  "group": "bizarre_fans",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:magma_cream"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "7": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "bizarre_fans:fire_core",
+    "count": 1
+  }
+}
