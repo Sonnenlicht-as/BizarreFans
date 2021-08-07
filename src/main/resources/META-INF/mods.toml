@@ -1,7 +1,7 @@
 modLoader = "javafml" #mandatory
 loaderVersion = "[36,)"
-license = "All rights reserved"
-#issueTrackerURL="http://my.issue.tracker/" #optional
+license = "GNU Affero General Public License v3.0"
+issueTrackerURL="https://github.com/Sonnenlicht-as/BizarreFans/issues/" #optional
 [[mods]] #mandatory
 modId = "bizarre_fans" #mandatory
 version = "1.0" #mandatory
