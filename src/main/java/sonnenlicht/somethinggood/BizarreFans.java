@@ -60,10 +60,7 @@ public class BizarreFans {
     }
 
     private void processIMC(final InterModProcessEvent event) {
-        LOGGER.info("Got IMC {}",
-                event.getIMCStream().
-                map(m -> m.getMessageSupplier().get()).
-                collect(Collectors.toList()));
+        LOGGER.info("Got IMC {}", event.getIMCStream().map(m -> m.getMessageSupplier().get()).collect(Collectors.toList()));
     }
 
     @SubscribeEvent
