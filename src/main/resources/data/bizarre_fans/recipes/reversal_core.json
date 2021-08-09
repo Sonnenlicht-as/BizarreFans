@@ -8,19 +8,19 @@
   ],
   "key": {
     "1": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:ender_eye"
     },
     "3": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:popped_chorus_fruit"
     },
     "4": {
       "item": "minecraft:iron_block"
     },
     "5": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:popped_chorus_fruit"
     },
     "7": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:glistering_melon_slice"
     }
   },
   "result": {
