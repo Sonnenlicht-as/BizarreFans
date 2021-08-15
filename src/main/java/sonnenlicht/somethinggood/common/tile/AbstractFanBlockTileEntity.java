@@ -181,7 +181,7 @@ public class AbstractFanBlockTileEntity extends TileEntity implements ITickableT
     }
 
     /** <H2>风扇基础功能</H2> */
-    private void setPushing() {
+    public void setPushing() {
         if(getWorld() != null){
             BlockState state = getWorld().getBlockState(getPos());
             Direction facing = state.get(AbstractFanBlock.FACING).getOpposite();

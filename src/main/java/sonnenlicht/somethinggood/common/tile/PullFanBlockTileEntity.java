@@ -27,14 +27,13 @@ public class PullFanBlockTileEntity extends AbstractFanBlockTileEntity {
     /** <H2>保留父类方法内容，增加新功能</H2> */
     @Override
     public void tick() {
-        if (getWorld() !=null && getWorld().getBlockState(getPos()).getBlock() instanceof AbstractFanBlock && getWorld().getGameTime() % 2 == 0)
-            if (getWorld().getBlockState(getPos()).get(AbstractFanBlock.POWERED))
-                setPushing();
+        super.tick();
         if (getWorld() !=null && getWorld().getBlockState(getPos()).getBlock() instanceof AbstractFanBlock && getWorld().getGameTime() % 100 == 0)
             if (getWorld().getBlockState(getPos()).get(AbstractFanBlock.POWERED) && ConfigRegistry.PLAY_SOUND.get())
                 getWorld().playSound(null, pos, SoundEvents.ITEM_ELYTRA_FLYING, SoundCategory.BLOCKS,0.5F,1);
-        if (getWorld() !=null && getWorld().getBlockState(getPos()).getBlock() instanceof AbstractFanBlock && getWorld().getGameTime() % 2 == 0)
+        if (getWorld() !=null && getWorld().getBlockState(getPos()).getBlock() instanceof AbstractFanBlock && getWorld().getGameTime() % 2 == 0){
             if (getWorld().getBlockState(getPos()).get(AbstractFanBlock.POWERED) && ConfigRegistry.SUMMON_PARTICLE.get()){
+                setPushing();
                 Random rand = new Random();
                 for(int i = 0; i < 4; ++i) {
                     double px = (float)pos.getZ() + rand.nextFloat();
@@ -47,13 +46,15 @@ public class PullFanBlockTileEntity extends AbstractFanBlockTileEntity {
                     getWorld().addParticle(ParticleTypes.ENCHANTED_HIT, pz, py + 1, px, vz, vy, vx);
                 }
             }
+        }
     }
 
     /**
      * <H2>聚集风扇起作用时的逻辑</H2>
      * 将范围内活实体聚集于风扇处
      */
-    private void setPushing() {
+    @Override
+    public void setPushing() {
         if (getWorld() != null) {
             for (LivingEntity living : getWorld().getEntitiesWithinAABB(LivingEntity.class, new AxisAlignedBB(this.getPos()).grow(zone, zone, zone))) {
                 if (living.isAlive() && !(living instanceof PlayerEntity)) {

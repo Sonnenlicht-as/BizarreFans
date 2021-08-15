@@ -1,6 +1,5 @@
 package sonnenlicht.somethinggood.common.item;
 
-import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -23,8 +22,6 @@ public class FrozenCore extends Item {
     }
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
-        if (Screen.hasShiftDown()) {
-            tooltip.add(new TranslationTextComponent("bizarre_fans.frozen_core.desc_0"));
-        }
+        tooltip.add(new TranslationTextComponent("bizarre_fans.frozen_core.desc_0"));
     }
 }
